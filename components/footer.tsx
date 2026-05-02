@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-black text-white pt-16 pb-24 md:pb-8 border-t-[6px] border-[#FFD700]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          
+
           {/* About Store */}
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
@@ -54,7 +54,7 @@ export function Footer() {
             <ul className="flex flex-col gap-4 text-gray-400 font-medium mt-2">
               <li className="flex items-start gap-3">
                 <MapPin className="w-6 h-6 text-[#FFD700] shrink-0" />
-                <span>Inderpuri, Patna<br/>Bihar, India - 800024</span>
+                <span>Inderpuri, Patna<br />Bihar, India - 800024</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-[#FFD700] shrink-0" />
@@ -72,9 +72,8 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-gray-800 text-center text-gray-500 font-medium flex flex-col md:flex-row justify-between items-center gap-4">
           <p>© 2026 Rajdhani Store. All rights reserved.</p>
           <div className="flex gap-4">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Rupay-Logo.png/1200px-Rupay-Logo.png" alt="RuPay" className="h-6 bg-white px-2 py-1 rounded" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/UPI-Logo.png/1200px-UPI-Logo.png" alt="UPI" className="h-6 bg-white px-2 py-1 rounded" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/1200px-Visa_Inc._logo.svg.png" alt="Visa" className="h-6 bg-white px-2 py-1 rounded" />
+            <p className="">Made with ❤️ by <a href="https://edunexservices.in" className='hover:underline'>Edunex Services</a> </p>
+
           </div>
         </div>
       </div>
