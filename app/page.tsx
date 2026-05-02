@@ -16,7 +16,7 @@ export default function Home() {
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Category Grid */}
-        <section className="py-4 md:py-8 border-b border-gray-200">
+        <section id="categories" className="py-4 md:py-8 border-b border-gray-200 scroll-mt-20">
           <div className="flex items-center justify-between mb-2 md:mb-4">
             <h2 className="text-2xl md:text-3xl font-black tracking-tight text-black flex items-center gap-3">
               Shop by Category

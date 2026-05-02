@@ -63,6 +63,17 @@ export function Header() {
 
       {/* Mobile Header (Mobile First Pattern) */}
       <div className="md:hidden flex flex-col px-4 pt-3 pb-4 gap-3">
+        <div className="flex items-center justify-between mb-1">
+          <Link href="/" className="flex items-center gap-1">
+            <span className="text-xl font-black tracking-tighter uppercase">
+              Rajdhani<span className="text-white bg-black px-1.5 py-0.5 ml-1 rounded text-sm">Store</span>
+            </span>
+          </Link>
+          <button onClick={() => !user && setIsLoginOpen(true)} className={`w-9 h-9 ${user ? 'bg-[#FFD700]' : 'bg-black text-white'} rounded-full flex items-center justify-center shadow-sm`}>
+            <User className="w-4 h-4" />
+          </button>
+        </div>
+
         <div className="flex items-center justify-between">
           <div className="flex flex-col">
             <div className="flex items-center gap-1 font-black text-lg tracking-tight">
@@ -74,9 +85,6 @@ export function Header() {
               <ChevronDown className="w-4 h-4" />
             </div>
           </div>
-          <button onClick={() => !user && setIsLoginOpen(true)} className={`w-10 h-10 ${user ? 'bg-[#FFD700]' : 'bg-black text-white'} rounded-full flex items-center justify-center shadow-sm`}>
-            <User className="w-5 h-5" />
-          </button>
         </div>
 
         {/* Mobile Search */}
